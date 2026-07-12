@@ -20,7 +20,6 @@ github:
       trustSameOrgActions: true
       trustedGithubActions:
         - ossf/scorecard-action
-        - gitleaks/gitleaks-action
         - getplumber/plumber
 
     # --- Debug trace forbidden ---
