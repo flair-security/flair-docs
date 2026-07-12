@@ -1,0 +1,10 @@
+{
+  "config": {
+    "default": true,
+    // Line-length is a style nitpick, not a content-correctness rule — long
+    // prose lines and wide tables are common in docs and not worth reformatting.
+    "MD013": false
+  },
+  "globs": ["docs/**/*.md", "*.md"],
+  "ignores": ["node_modules/**", "build/**", ".docusaurus/**"]
+}
