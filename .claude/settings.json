@@ -2,9 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(git push --force-with-lease*)",
-      "Bash(pip install*)",
-      "Bash(mkdocs serve*)",
-      "Bash(mkdocs build*)",
+      "Bash(npm ci*)",
+      "Bash(npm install*)",
+      "Bash(npm run *)",
+      "Bash(npm start*)",
+      "Bash(npx docusaurus*)",
+      "Bash(npx tsc*)",
       "Bash(markdownlint*)",
       "Bash(git status)",
       "Bash(git diff*)",

@@ -1,0 +1,12 @@
+# ===== Build / generated site =====
+build/
+.docusaurus/
+node_modules/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Claude Code =====
+.claude/settings.local.json
